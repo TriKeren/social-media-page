@@ -1,10 +1,11 @@
+import SocialMediaPage from "./pages/Social-media";
 
 function App() {
   return (
-    <>
-      <div className="">hahahahahah</div>
-    </>
+    <div>
+      <SocialMediaPage />
+    </div>
   )
 }
 
-export default App
+export default App;
