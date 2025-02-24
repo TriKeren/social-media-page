@@ -117,7 +117,7 @@ const SocialMediaPage = () => {
       handle: "@uistellar",
     },
     {
-      href: "hellouistellar@gmail.com",
+      href: "mailto:hellouistellar@gmail.com",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -180,7 +180,7 @@ const SocialMediaPage = () => {
           {/* Social Media  */}
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 lg:gap-2">
             {socialMedia.map((social, index) => (
-              <a key={index} href={social.href} className="group">
+              <a target="_blank" key={index} href={social.href} className="group">
                 <div className="flex flex-row transition-transform transform group-hover:scale-95 duration-300 ease-in-out hover:bg-gray-100 rounded-xl md:w-full w-[320px]">
                   <div className="relative flex items-center justify-center">
                     <div className="h-20 w-20 flex items-center justify-center">
@@ -199,7 +199,7 @@ const SocialMediaPage = () => {
                 </div>
               </a>
             ))}
-            <a href="https://ui8.net/uistellar" className="group">
+            <a target="_blank" href="https://ui8.net/uistellar" className="group">
                 <div className="flex flex-row transition-transform transform group-hover:scale-95 duration-300 ease-in-out hover:bg-gray-100 rounded-xl md:w-full w-[320px]">
                   <div className="relative flex items-center justify-center">
                     <div className="h-20 w-20 flex items-center justify-center">
